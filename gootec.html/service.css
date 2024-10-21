@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #333;
+    color: #c61313;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.service-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-details {
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.cta {
+    background-color: #6c0b0b;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #6c0b0b;
+    height: 10px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
